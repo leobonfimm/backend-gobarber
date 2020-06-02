@@ -1,4 +1,4 @@
-class Error {
+class AppError {
   public message: string;
 
   public statusCode: number;
@@ -9,4 +9,4 @@ class Error {
   }
 }
 
-export default Error;
+export default AppError;
